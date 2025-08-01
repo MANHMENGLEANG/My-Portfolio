@@ -137,14 +137,14 @@ header {
 }
 
 #main-content .social-icons {
-  flex-flow: column-reverse nowrap;
+  /* flex-flow: column-reverse nowrap; */
   display: flex;
   gap: 20px;
   margin-top: 10px;
   float: left;
   margin-left: 20px;
   position: relative;
-  transform: translateY(110%);
+  transform: translateY(-110%);
 }
 
 #main-content .social-icons a {
@@ -468,7 +468,7 @@ footer a:hover {
 
 /* for mobile-phone */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 640px) {
   /* header */
 
   header {
@@ -540,7 +540,7 @@ footer a:hover {
   #main-content .content-1 p {
     font-size: 0.3rem;
     color: #ffffff;
-    margin-right: 40%;
+    margin-right: 37%;
     transform: translateY(100%);
   }
 
@@ -548,7 +548,7 @@ footer a:hover {
     border-bottom: 2px solid #00fff5;
     width: 135px;
     position: absolute;
-    left: 36%;
+    left: 40%;
     margin-top: -3px;
     top: 20%;
   }
@@ -571,6 +571,7 @@ footer a:hover {
     justify-content: center;
     gap: 2px;
     margin-top: 2px;
+    margin-left: 5%;
   }
 
   #main-content .button button {
